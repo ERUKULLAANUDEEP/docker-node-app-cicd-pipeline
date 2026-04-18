@@ -29,5 +29,5 @@ app.get("/users", async (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("Server running");
+  console.log("Server runningg");
 });

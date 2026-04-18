@@ -24,9 +24,10 @@ app.get("/users", async (req, res) => {
     res.json(result.rows);
   } catch (err) {
     console.error(err);
-    res.status(500).send("Error fetching users");
+    res.status(500).send("Error fetching userss..");
   }
 });
+
 
 app.listen(3000, () => {
   console.log("Server runninggG");
